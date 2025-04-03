@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tem de tudo</string>
+
+    <string name="welcome_message">Bem-vindo ao Tem de Tudo!</string>
+    <string name="start_registration">Iniciar Cadastro</string>
+    <string name="enter_name">Digite seu nome</string>
+    <string name="confirm">Confirmar</string>
+    <string name="registration_complete">Cadastro Completo!</string>
+    <string name="welcome_user">Bem-vindo, %1$s!</string>
+    <string name="back_to_home">Voltar ao Início</string>
+
+    <dimen name="padding">30dp</dimen>
+    <dimen name="margin">50dp</dimen>
+    <dimen name="image_size">150dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+</resources>
