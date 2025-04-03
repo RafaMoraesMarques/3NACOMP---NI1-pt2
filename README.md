@@ -1,53 +1,51 @@
-# Aplicativos Android para Diferentes Cenários
+# Aplicativos Android
 
-## Descrição
-Este repositório contém cinco projetos Android Studio desenvolvidos para diferentes cenários e propósitos, abordando conceitos como CheckBox, TextInputLayout, navegação entre Activities e manipulação de valores dinâmicos.
+Este repositório contém diferentes projetos de aplicativos Android desenvolvidos no Android Studio. Cada projeto aborda um conceito específico, utilizando componentes essenciais para a experiência do usuário e boas práticas de desenvolvimento.
 
-## Projetos Incluídos
+## 1. Sistema de Compras
+Aplicação que permite ao usuário selecionar produtos usando CheckBoxes e calcular o valor total da compra.
 
-### 1. **Sistema de Compras com CheckBox**
-Aplicativo que permite selecionar produtos de uma lista e calcular o valor total da compra.
+### Fluxo do app:
+1. Lista de produtos com preços.
+2. Usuário marca os itens desejados.
+3. O valor total é calculado e exibido.
 
-- Produtos disponíveis:
-  - Arroz 1Kg (R$2,69)
-  - Leite Longa Vida (R$2,70)
-  - Carne Friboi (R$16,70)
-  - Feijão Carioquinha 1Kg (R$3,38)
-  - Refrigerante Coca-Cola 2L (R$3,00)
+## 2. Cálculo de Reajuste Salarial
+Aplicação que recebe o salário de um funcionário e calcula o novo salário com base em diferentes percentuais de aumento.
 
-### 2. **Cálculo de Salário com Aumento**
-Aplicativo que permite inserir o salário de um funcionário e calcular seu novo valor com base em percentuais de aumento (40%, 45% ou 50%).
+### Fluxo do app:
+1. Usuário insere o salário atual.
+2. Escolhe entre as opções de reajuste (40%, 45%, 50%).
+3. Novo salário é calculado e exibido.
 
-### 3. **Cadastro de Clientes - Loja Virtual "Tem de Tudo"**
-Aplicativo para registrar clientes em eventos e lojas físicas da "Tem de Tudo".
+## 3. Registro de Clientes - Loja Virtual "Tem de Tudo"
+Aplicativo para registrar novos clientes da loja "Tem de Tudo", facilitando o cadastro inicial em eventos e lojas físicas.
 
-- **Fluxo do app:**
-  1. Tela de boas-vindas com logomarca e botão de cadastro.
-  2. Formulário para inserir o nome do cliente.
-  3. Confirmação do cadastro com mensagem personalizada.
+### Fluxo do app:
+1. Tela de boas-vindas com logomarca e botão de cadastro.
+2. Formulário para inserir o nome do cliente.
+3. Confirmação do cadastro com mensagem personalizada.
 
-### 4. **Registro de Pedidos - Lanchonete "Lanche Fácil"**
+## 4. Registro de Pedidos - Lanchonete "Lanche Fácil"
 Aplicativo para registrar pedidos de lanches em lojas e eventos.
 
-- **Fluxo do app:**
-  1. Tela inicial com logomarca e botão para iniciar o pedido.
-  2. Formulário para escolha do lanche e inserção do nome do cliente.
-  3. Resumo do pedido com exibição dinâmica do nome e lanche escolhido.
+### Fluxo do app:
+1. Tela inicial com logomarca e botão para iniciar o pedido.
+2. Formulário para escolha do lanche e inserção do nome do cliente.
+3. Resumo do pedido com exibição dinâmica do nome e lanche escolhido.
 
-### 5. **Simulação de Pedido em Pizzaria**
-Aplicativo que permite ao usuário selecionar o tipo de pizza, tamanho e método de pagamento, calculando o valor total do pedido.
+## 5. Simulação de Pedido em Pizzaria
+Aplicação que permite ao usuário selecionar o tipo de pizza, tamanho e método de pagamento, calculando o valor final do pedido.
 
-- **Fluxo do app:**
-  1. Seleção do tipo de pizza (Calabresa, Marguerita, Portuguesa, etc.)
-  2. Escolha do tamanho (Pequena, Média, Grande) e forma de pagamento (Dinheiro, Cartão).
-  3. Resumo do pedido com detalhes e valor final.
+### Fluxo do app:
+1. Escolha do tipo de pizza (Calabresa, Marguerita, Portuguesa) com CheckBoxes.
+2. Seleção do tamanho e método de pagamento usando RadioButtons.
+3. Resumo do pedido com o valor total calculado.
 
-## Tecnologias Utilizadas
+### Tecnologias Utilizadas
 - Java/Kotlin
 - Android Studio
-- XML para layouts
-- Navegação entre Activities
-- Componentes do Material Design
+- Componentes de UI do Material Design
 
 
 
