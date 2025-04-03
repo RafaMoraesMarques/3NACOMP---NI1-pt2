@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Salario</string>
+
+        <string name="titulo">Digite seu salário (R$)</string>
+        <string name="hint_salario">950.50</string>
+        <string name="opcao_40">40%</string>
+        <string name="opcao_45">45%</string>
+        <string name="opcao_50">50%</string>
+        <string name="botao_calcular">Mostrar novo salário</string>
+        <string name="resultado">Novo salário: R$0.00</string>
+
+</resources>
