@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sistema de Compras</string>
+    <string name="titulo">Sistema de Compras</string>
+    <string name="arroz">Arroz (R$2.69)</string>
+    <string name="leite">Leite (R$2.70)</string>
+    <string name="carne">Carne (R$16.70)</string>
+    <string name="feijao">Feijão (R$3.38)</string>
+    <string name="refrigerante">Refrigerante Coca-Cola 2L (R$3.00)</string>
+    <string name="botao_calcular">Total da compra</string>
+    <string name="total_compra">Total da compra: R$0.00</string>
+
+    <string name="preco_arroz">2.69</string>
+    <string name="preco_leite">2.70</string>
+    <string name="preco_carne">16.70</string>
+    <string name="preco_feijao">3.38</string>
+    <string name="preco_refrigerante">3.00</string>
+
+    <color name="laranja">#FF5722</color>
+    <color name="preto">#000000</color>
+
+</resources>
