@@ -27,9 +27,11 @@ public class MainActivity extends AppCompatActivity {
         btnCalcular = findViewById(R.id.btnCalcular);
         txtTotal = findViewById(R.id.txtTotal);
 
+        txtTotal.setText("Total da compra: R$0.00");
+
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 calcularTotal();
             }
         });

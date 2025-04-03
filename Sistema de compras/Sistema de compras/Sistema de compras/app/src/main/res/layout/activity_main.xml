@@ -4,13 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@android:color/background_light">
+    android:background="@color/black">
 
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -20,30 +21,35 @@
         android:id="@+id/chkArroz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/arroz" />
 
     <CheckBox
         android:id="@+id/chkLeite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/leite" />
 
     <CheckBox
         android:id="@+id/chkCarne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/carne" />
 
     <CheckBox
         android:id="@+id/chkFeijao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/feijao" />
 
     <CheckBox
         android:id="@+id/chkRefrigerante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/refrigerante" />
 
     <Button
@@ -52,7 +58,7 @@
         android:layout_height="wrap_content"
         android:text="@string/botao_calcular"
         android:backgroundTint="@color/laranja"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/txtTotal"
@@ -61,5 +67,6 @@
         android:text="@string/total_compra"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp" />
 </LinearLayout>
