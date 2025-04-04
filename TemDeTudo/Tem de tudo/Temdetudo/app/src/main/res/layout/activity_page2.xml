@@ -40,6 +40,7 @@
             android:onClick="confirmarCadastro"
             android:layout_margin="15dp"
             android:backgroundTint="@color/orange"/>
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
