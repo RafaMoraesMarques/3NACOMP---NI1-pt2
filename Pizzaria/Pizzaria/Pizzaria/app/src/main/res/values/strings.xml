@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Pedido de Pizza</string>
+
+    <!-- Page1 -->
+    <string name="calabresa">Calabresa</string>
+    <string name="marguerita">Marguerita</string>
+    <string name="portuguesa">Portuguesa</string>
+    <string name="proximo">Próximo</string>
+    <string name="tituloPizzas">Selecione os sabores de pizza</string>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="espacoEntre">25dp</dimen>
+    <dimen name="tamanhoTexto">20sp</dimen>
+    <string name="pizza">Imagem ilustrativa de pizza</string>
+
+    <!-- Page2 -->
+    <string name="pequena">Pequena</string>
+    <string name="media">Média</string>
+    <string name="grande">Grande</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="cartao">Cartão</string>
+    <string name="selecioneTamanho">Selecione o tamanho</string>
+    <string name="selecionePagamento">Forma de pagamento</string>
+    <string name="confirmar">Confirmar</string>
+
+    <!-- Page3 -->
+    <string name="titulo_resumo">Resumo do Pedido</string>
+    <string name="voltar_inicio">Novo Pedido</string>
+    <string name="img_resumo">Imagem de pedido finalizado</string>
+
+
+
+</resources>

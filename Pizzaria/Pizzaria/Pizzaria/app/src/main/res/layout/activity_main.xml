@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cinza"
+    android:padding="@dimen/padding_default">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloPizzas"
+        android:textSize="@dimen/tamanhoTexto"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/espacoEntre" />
+
+    <CheckBox
+        android:id="@+id/cbCalabresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calabresa" />
+
+    <CheckBox
+        android:id="@+id/cbMarguerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/marguerita" />
+
+    <CheckBox
+        android:id="@+id/cbPortuguesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portuguesa" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/espacoEntre"
+        android:backgroundTint="@color/laranja"
+        android:text="@string/proximo"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="388dp"
+        android:layout_marginTop="@dimen/espacoEntre"
+        android:contentDescription="@string/pizza"
+        android:src="@drawable/pizza" />
+</LinearLayout>
