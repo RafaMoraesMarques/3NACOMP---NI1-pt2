@@ -43,9 +43,8 @@ Aplicação que permite ao usuário selecionar o tipo de pizza, tamanho e métod
 3. Resumo do pedido com o valor total calculado.
 
 ### Tecnologias Utilizadas
-- Java/Kotlin
+- Java
 - Android Studio
-- Componentes de UI do Material Design
 
 
 
