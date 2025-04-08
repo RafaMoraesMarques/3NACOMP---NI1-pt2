@@ -1,0 +1,25 @@
+<resources>
+
+    //Page1
+    <string name="app_name">Lanche Fácil</string>
+    <string name="botaoIniciar">Fazer Pedido</string>
+    <string name="logo">Logomarca da Lanche Fácil</string>
+
+    //dimensões
+    <dimen name="padding_default">15dp</dimen>
+    <dimen name="margin_top">25dp</dimen>
+
+    //Page2
+    <string name="botaoConfirmar">Confirmar Pedido</string>
+    <string name="imglLanche">Imagem ilustrativa de lanches</string>
+    <string name="nome">Digite seu nome</string>
+    <string name="lancheHamburguer">Hambúrguer</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Hotdog">Hot Dog</string>
+
+    //Page3
+    <string name="imgPedido">Imagem de pedido concluído</string>
+    <string name="novoPedido">Novo Pedido</string>
+
+
+</resources>

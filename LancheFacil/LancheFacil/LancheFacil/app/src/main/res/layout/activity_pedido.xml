@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_default"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/lanche"
+            android:contentDescription="@string/imglLanche"
+            android:layout_marginBottom="@dimen/margin_top"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupLanches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top">
+
+            <RadioButton
+                android:id="@+id/rbHamburguer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lancheHamburguer"/>
+
+            <RadioButton
+                android:id="@+id/rbPizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Pizza"/>
+
+            <RadioButton
+                android:id="@+id/rbHotdog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hotdog"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoConfirmar"
+            android:layout_marginTop="@dimen/margin_top"
+            android:backgroundTint="@color/laranja"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>
